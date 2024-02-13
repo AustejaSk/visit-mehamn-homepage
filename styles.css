@@ -1,0 +1,142 @@
+body {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#hero-section {
+    background-image: url("images/mehamn-hero.jpg");
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#hero-title {
+    background: rgba(33, 49, 95, 0.9);
+    padding: 8px 18px;
+    border-radius: 10px;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 0px
+}
+
+#hero-subtitle {
+    background: rgba(61, 76, 118, 0.9);
+    ;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 450px;
+    margin-top: 11px
+}
+
+#activities-section {
+    background: #FBF2FF;
+    display: flex;
+    flex-direction: column;
+}
+
+#activities-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1D3557;
+    margin: 39px 0px;
+}
+
+#activities-collum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    padding: 0px 34px;
+}
+
+#northen-lights-img, #hiking-img, #fishing-img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    transition: all 0.5s ease;
+}
+
+#northen-lights-img:hover, #hiking-img:hover, #fishing-img:hover {
+    width: 120px;
+    height: 120px;
+}
+
+#northen-lights-section, #hiking-section, #fishing-section {
+    margin-bottom: 48px;
+}
+
+#northen-lights-titel, #hiking-titel, #fishing-titel {
+    margin-bottom: 12px;
+    color: #1D3557;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#northen-lights-descr, #hiking-descr, #fishing-descr {
+    margin-top: 0px;
+    color: #1D3557;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#guide-section {
+    background: #4E5770;
+    display: flex;
+    justify-content: center;
+}
+
+#guide-card {
+    background: #FBF2FF;
+    margin: 50px;
+    width: 652px;
+    height: 294px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 45px;
+    gap: 47px;
+    box-shadow: 6px 6px 0px #21315F;
+}
+
+#guide-img {
+    width: 180px;
+    height: 249px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #21315F80;
+}
+
+#guide-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1D3557;
+}
+
+#guide-info {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1D3557;
+}
+
+#guide-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D3557;
+}
