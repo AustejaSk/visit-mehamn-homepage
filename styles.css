@@ -10,7 +10,7 @@ img {
 }
 
 #hero-section {
-    background-image: url("images/mehamn-hero.jpg");
+    background-color: #1D3557;
     background-size: cover;
     height: 343px;
     display: flex;
